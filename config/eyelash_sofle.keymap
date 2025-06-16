@@ -233,11 +233,11 @@
 
         Symbol {
             bindings = <
-&trans  &kp EXCLAMATION  &kp AT        &kp HASH      &kp DOLLAR      &kp PERCENT      &trans  &kp CARET  &kp AMPERSAND         &kp ASTERISK      &kp AT             &trans                 &trans
-&trans  &kp GRAVE        &kp SLASH     &kp ASTERISK  &kp CARET       &kp BACKSLASH    &trans  &kp TILDE  &kp LEFT_BRACE        &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp RIGHT_BRACE        &trans
-&trans  &kp EXCLAMATION  &kp DOLLAR    &kp COLON     &kp EQUAL       &kp AMPERSAND    &trans  &kp AT     &kp LEFT_PARENTHESIS  &kp SEMI          &kp DOUBLE_QUOTES  &kp RIGHT_PARENTHESIS  &trans
-&trans  &kp PLUS         &kp QUESTION  &kp HASH      &kp PERCENT     &kp PIPE         &trans  &dcolon    &kp LEFT_BRACKET      &kp PERIOD        &kp SINGLE_QUOTE   &kp RIGHT_BRACKET      &trans
-&trans  &trans           &trans        &kp SPACE     &kp UNDERSCORE  &kp MINUS        &trans  &trans     &trans                &trans            &trans             &trans
+&trans        &kp EXCLAMATION  &kp AT         &kp HASH          &kp DOLLAR      &kp PERCENT      &trans  &kp CARET     &kp AMPERSAND         &kp ASTERISK      &kp AT             &trans                 &trans
+&trans        &kp GRAVE        &kp SLASH      &kp ASTERISK      &kp CARET       &kp BACKSLASH    &trans  &kp TILDE     &kp LEFT_BRACE        &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp RIGHT_BRACE        &trans
+&trans        &kp EXCLAMATION  &kp DOLLAR     &kp COLON         &kp EQUAL       &kp AMPERSAND    &trans  &kp AT        &kp LEFT_PARENTHESIS  &kp SEMI          &kp QUESTION       &kp RIGHT_PARENTHESIS  &trans
+&kp QUESTION  &kp MINUS        &kp PLUS       &kp HASH          &kp PERCENT     &kp PIPE         &trans  &kp QUESTION  &kp LEFT_BRACKET      &kp COLON         &kp PERIOD         &kp RIGHT_BRACKET      &trans
+&trans        &kp SPACE        &kp LESS_THAN  &kp GREATER_THAN  &kp UNDERSCORE  &kp MINUS        &trans  &trans        &trans                &trans            &trans             &trans
             >;
 
             label = "Symbol";
