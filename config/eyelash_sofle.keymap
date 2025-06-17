@@ -182,8 +182,8 @@
         Navigation {
             bindings = <
 &trans      &trans        &trans        &trans      &trans     &trans    &msc SCRL_UP     &trans         &trans         &trans         &trans       &trans     &trans
-&trans      &trans        &trans        &trans      &trans     &trans    &msc SCRL_DOWN   &kp LS(LG(Z))  &kp LG(V)      &kp LG(C)      &kp LG(X)    &kp LG(Z)  &trans
-&trans      &kp LEFT_GUI  &kp LEFT_ALT  &kp LSHIFT  &kp LCTRL  &trans    &msc SCRL_LEFT   &kp LEFT       &kp DOWN       &kp UP         &kp RIGHT    &kp CAPS   &trans
+&trans      &kp LEFT      &kp UP_ARROW  &kp DOWN    &kp RIGHT  &trans    &msc SCRL_DOWN   &kp LS(LG(Z))  &kp LG(V)      &kp LG(C)      &kp LG(X)    &kp LG(Z)  &trans
+&trans      &kp LEFT_GUI  &kp LEFT_ALT  &kp LSHIFT  &kp LCTRL  &trans    &msc SCRL_LEFT   &kp CAPS       &kp H          &kp J          &kp K        &kp L      &trans
 &trans      &trans        &trans        &trans      &mo 0      &trans    &msc SCRL_RIGHT  &kp INSERT     &kp HOME       &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans
 &kp C_MUTE  &trans        &trans        &trans      &trans     &trans    &mkp LCLK        &kp ENTER      &kp BACKSPACE  &kp DELETE     &trans       &trans
             >;
@@ -256,14 +256,14 @@
             label = "Function";
         };
 
-        Vim {
-            label = "Vim";
+        Quick {
+            label = "Quick";
             bindings = <
-&trans  &trans                &trans            &trans             &trans                 &trans         &trans  &trans     &trans     &trans     &trans  &trans  &trans
-&trans  &kp LEFT_BRACE        &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp RIGHT_BRACE        &kp PERCENT    &trans  &trans     &trans     &trans     &trans  &trans  &trans
-&trans  &kp LEFT_PARENTHESIS  &kp DOLLAR        &kp MINUS          &kp RIGHT_PARENTHESIS  &kp EQUAL      &trans  &trans     &kp H      &kp J      &kp K   &kp L   &trans
-&trans  &kp LEFT_BRACKET      &kp LESS_THAN     &kp GREATER_THAN   &kp RIGHT_BRACKET      &kp COLON      &trans  &trans     &kp LA(C)  &trans     &trans  &trans  &trans
-&trans  &trans                &kp EQUAL         &kp GREATER_THAN   &kp MINUS              &kp DOLLAR     &trans  &kp LA(C)  &kp LA(E)  &kp LA(I)  &trans  &trans
+&trans  &trans                &trans            &trans             &trans                 &trans         &trans  &trans     &trans     &trans        &trans          &trans     &trans
+&trans  &kp LEFT_BRACE        &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp RIGHT_BRACE        &kp PERCENT    &trans  &trans     &trans     &trans        &trans          &trans     &trans
+&trans  &kp LEFT_PARENTHESIS  &kp DOLLAR        &kp MINUS          &kp RIGHT_PARENTHESIS  &kp EQUAL      &trans  &trans     &kp LEFT   &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans
+&trans  &kp LEFT_BRACKET      &kp LESS_THAN     &kp GREATER_THAN   &kp RIGHT_BRACKET      &kp COLON      &trans  &trans     &kp LA(C)  &trans        &trans          &trans     &trans
+&trans  &trans                &kp EQUAL         &kp GREATER_THAN   &kp MINUS              &kp DOLLAR     &trans  &kp LA(C)  &kp LA(E)  &kp LA(I)     &trans          &trans
             >;
         };
     };
