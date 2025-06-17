@@ -237,7 +237,7 @@
 &kp SLASH      &kp LEFT_BRACE        &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp RIGHT_BRACE        &kp TILDE       &trans  &kp TILDE     &kp LEFT_BRACE        &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp RIGHT_BRACE        &kp SLASH
 &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp QUESTION       &kp SEMICOLON     &kp RIGHT_PARENTHESIS  &kp AT          &trans  &kp AT        &kp LEFT_PARENTHESIS  &kp SEMI          &kp QUESTION       &kp RIGHT_PARENTHESIS  &kp ASTERISK
 &kp DOLLAR     &kp LEFT_BRACKET      &kp PERIOD         &kp COLON         &kp RIGHT_BRACKET      &kp QUESTION    &trans  &kp QUESTION  &kp LEFT_BRACKET      &kp COLON         &kp PERIOD         &kp RIGHT_BRACKET      &kp DOLLAR
-&trans         &kp UNDERSCORE        &kp LESS_THAN      &kp GREATER_THAN  &kp UNDERSCORE         &kp MINUS       &trans  &trans        &trans                &kp AMPERSAND     &kp PIPE           &kp UNDERSCORE
+&trans         &kp UNDERSCORE        &kp LESS_THAN      &kp GREATER_THAN  &kp MINUS              &kp EQUAL       &trans  &trans        &trans                &kp AMPERSAND     &kp PIPE           &kp UNDERSCORE
             >;
 
             label = "Symbol";
@@ -247,11 +247,11 @@
         Symbol2 {
             label = "Symbol2";
             bindings = <
-&trans        &trans           &trans         &trans            &trans          &trans           &trans  &trans     &trans     &trans        &trans          &trans     &trans
-&trans        &kp GRAVE        &kp SLASH      &kp ASTERISK      &kp CARET       &kp BACKSLASH    &trans  &trans     &trans     &trans        &trans          &trans     &trans
-&trans        &kp EXCLAMATION  &kp DOLLAR     &kp COLON         &kp EQUAL       &kp AMPERSAND    &trans  &trans     &kp LEFT   &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans
-&kp QUESTION  &kp MINUS        &kp PLUS       &kp HASH          &kp PERCENT     &kp PIPE         &trans  &trans     &kp LA(C)  &kp LG(C)     &kp LG(V)       &trans     &trans
-&trans        &kp SPACE        &kp LESS_THAN  &kp GREATER_THAN  &kp UNDERSCORE  &kp MINUS        &trans  &kp LA(C)  &kp LA(E)  &kp LA(I)     &kp LG(X)       &kp LG(Z)
+&trans        &trans           &trans         &trans            &trans       &trans            &trans  &trans     &trans     &trans        &trans          &trans     &trans
+&trans        &kp GRAVE        &kp SLASH      &kp ASTERISK      &kp CARET    &kp BACKSLASH     &trans  &trans     &trans     &trans        &trans          &trans     &trans
+&trans        &kp EXCLAMATION  &kp DOLLAR     &kp COLON         &kp EQUAL    &kp AMPERSAND     &trans  &trans     &kp LEFT   &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans
+&kp QUESTION  &kp MINUS        &kp PLUS       &kp HASH          &kp PERCENT  &kp PIPE          &trans  &trans     &kp LA(C)  &kp LG(C)     &kp LG(V)       &trans     &trans
+&trans        &kp SPACE        &kp LESS_THAN  &kp GREATER_THAN  &kp MINUS    &kp UNDERSCORE    &trans  &kp LA(C)  &kp LA(E)  &kp LA(I)     &kp LG(X)       &kp LG(Z)
             >;
         };
 
