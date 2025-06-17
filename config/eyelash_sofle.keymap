@@ -233,11 +233,11 @@
 
         Symbol {
             bindings = <
-&kp BACKSLASH  &kp EXCLAMATION       &kp AT             &kp HASH          &kp DOLLAR             &kp PERCENT     &trans  &kp CARET     &kp AMPERSAND         &kp ASTERISK      &kp AT             &kp PIPE               &kp BACKSLASH
-&kp SLASH      &kp LEFT_BRACE        &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp RIGHT_BRACE        &kp TILDE       &trans  &kp TILDE     &kp LEFT_BRACE        &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp RIGHT_BRACE        &kp SLASH
-&kp ASTERISK   &kp LEFT_PARENTHESIS  &kp QUESTION       &kp SEMICOLON     &kp RIGHT_PARENTHESIS  &kp AT          &trans  &kp AT        &kp LEFT_PARENTHESIS  &kp SEMI          &kp QUESTION       &kp RIGHT_PARENTHESIS  &kp ASTERISK
-&kp DOLLAR     &kp LEFT_BRACKET      &kp PERIOD         &kp COLON         &kp RIGHT_BRACKET      &kp QUESTION    &trans  &kp QUESTION  &kp LEFT_BRACKET      &kp COLON         &kp PERIOD         &kp RIGHT_BRACKET      &kp DOLLAR
-&trans         &kp UNDERSCORE        &kp LESS_THAN      &kp GREATER_THAN  &kp MINUS              &kp EQUAL       &trans  &trans        &trans                &kp AMPERSAND     &kp PIPE           &kp UNDERSCORE
+&kp BACKSLASH   &kp EXCLAMATION       &kp AT             &kp HASH          &kp DOLLAR             &kp PERCENT     &trans  &kp CARET     &kp AMPERSAND         &kp ASTERISK      &kp AT             &kp PIPE               &kp BACKSLASH
+&kp SLASH       &kp LEFT_BRACE        &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp RIGHT_BRACE        &kp TILDE       &trans  &kp TILDE     &kp LEFT_BRACE        &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp RIGHT_BRACE        &kp SLASH
+&kp ASTERISK    &kp LEFT_PARENTHESIS  &kp QUESTION       &kp SEMICOLON     &kp RIGHT_PARENTHESIS  &kp AT          &trans  &kp AT        &kp LEFT_PARENTHESIS  &kp SEMI          &kp QUESTION       &kp RIGHT_PARENTHESIS  &kp ASTERISK
+&kp LEFT_SHIFT  &kp LEFT_BRACKET      &kp PERIOD         &kp COLON         &kp RIGHT_BRACKET      &kp QUESTION    &trans  &kp QUESTION  &kp LEFT_BRACKET      &kp COLON         &kp PERIOD         &kp RIGHT_BRACKET      &kp DOLLAR
+&trans          &kp UNDERSCORE        &kp LESS_THAN      &kp GREATER_THAN  &kp MINUS              &kp EQUAL       &trans  &trans        &trans                &kp AMPERSAND     &kp PIPE           &kp UNDERSCORE
             >;
 
             label = "Symbol";
