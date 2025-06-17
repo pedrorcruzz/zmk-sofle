@@ -171,8 +171,8 @@
 &kp ESC     &kp N1       &kp N2        &kp N3         &kp N4        &kp N5       &kp UP_ARROW     &kp N6       &kp N7           &kp N8         &kp N9           &kp N0         &kp BACKSPACE
 &kp TAB     &kp Q        &kp W         &kp F          &kp P         &kp B        &kp DOWN_ARROW   &kp J        &kp L            &kp U          &kp Y            &kp SEMICOLON  &kp BSLH
 &kp CAPS    &hrm LGUI A  &hrm LALT R   &hrm LSHIFT S  &hrm LCTRL T  &kp G        &kp LEFT_ARROW   &kp M        &hrm RCTRL N     &hrm RSHIFT E  &hrm RALT I      &hrm RGUI O    &kp APOS
-&kp LSHFT   &kp Z        &kp X         &kp C          &kp D         &kp V        &kp RIGHT_ARROW  &kp K        &kp H            &kp COMMA      &kp DOT          &kp FSLH       &lt 7 SPACE
-&kp C_MUTE  &kp LCTRL    &kp LEFT_GUI  &lt 3 ESC      &lt 1 SPACE   &lt 2 TAB    &kp ENTER        &lt 4 ENTER  &lt 5 BACKSPACE  &lt 6 DELETE   &kp RIGHT_SHIFT  &kp RIGHT_GUI
+&kp LSHFT   &kp Z        &kp X         &kp C          &kp D         &kp V        &kp RIGHT_ARROW  &kp K        &kp H            &kp COMMA      &kp DOT          &kp FSLH       &lt 6 SPACE
+&kp C_MUTE  &kp LCTRL    &kp LEFT_GUI  &lt 3 ESC      &lt 1 SPACE   &lt 2 TAB    &kp ENTER        &lt 4 ENTER  &lt 5 BACKSPACE  &lt 7 DELETE   &kp RIGHT_SHIFT  &kp RIGHT_GUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -181,11 +181,11 @@
 
         Navigation {
             bindings = <
-&trans      &trans        &trans        &trans      &trans     &trans    &msc SCRL_UP     &trans         &trans         &trans         &trans       &trans     &trans
-&trans      &kp LEFT      &kp UP_ARROW  &kp DOWN    &kp RIGHT  &trans    &msc SCRL_DOWN   &kp LS(LG(Z))  &kp LG(V)      &kp LG(C)      &kp LG(X)    &kp LG(Z)  &trans
-&trans      &kp LEFT_GUI  &kp LEFT_ALT  &kp LSHIFT  &kp LCTRL  &trans    &msc SCRL_LEFT   &kp CAPS       &kp H          &kp J          &kp K        &kp L      &trans
-&trans      &trans        &trans        &trans      &mo 0      &trans    &msc SCRL_RIGHT  &kp INSERT     &kp HOME       &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans
-&kp C_MUTE  &trans        &trans        &trans      &trans     &trans    &mkp LCLK        &kp ENTER      &kp BACKSPACE  &kp DELETE     &trans       &trans
+&trans      &trans        &trans        &trans      &trans     &trans    &msc SCRL_UP     &trans      &trans         &trans         &trans       &trans         &trans
+&trans      &kp LEFT      &kp UP_ARROW  &kp DOWN    &kp RIGHT  &trans    &msc SCRL_DOWN   &kp LG(Z)   &kp LG(C)      &kp LG(V)      &kp LG(X)    &kp LG(LS(Z))  &trans
+&trans      &kp LEFT_GUI  &kp LEFT_ALT  &kp LSHIFT  &kp LCTRL  &trans    &msc SCRL_LEFT   &kp CAPS    &kp H          &kp J          &kp K        &kp L          &trans
+&trans      &trans        &trans        &trans      &mo 0      &trans    &msc SCRL_RIGHT  &kp INSERT  &kp HOME       &kp PAGE_DOWN  &kp PAGE_UP  &kp END        &trans
+&kp C_MUTE  &trans        &trans        &trans      &trans     &trans    &mkp LCLK        &kp ENTER   &kp BACKSPACE  &kp DELETE     &trans       &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_DEC C_BRIGHTNESS_INC>;
@@ -194,10 +194,10 @@
 
         Mouse {
             bindings = <
-&trans  &trans        &trans    &trans      &trans     &trans    &mmv MOVE_UP     &trans          &trans          &trans        &trans           &trans     &trans
-&trans  &trans        &trans    &trans      &trans     &trans    &mmv MOVE_DOWN   &kp LG(LS(Z))   &kp LG(V)       &kp LG(C)     &kp LG(X)        &kp LG(Z)  &trans
-&trans  &kp LEFT_GUI  &kp LALT  &kp LSHIFT  &kp LCTRL  &trans    &mmv MOVE_LEFT   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans     &trans
-&trans  &trans        &trans    &trans      &mo 0      &trans    &mmv MOVE_RIGHT  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans     &trans
+&trans  &trans        &trans    &trans      &trans     &trans    &mmv MOVE_UP     &trans          &trans          &trans        &trans           &trans         &trans
+&trans  &trans        &trans    &trans      &trans     &trans    &mmv MOVE_DOWN   &kp LG(Z)       &kp LG(C)       &kp LG(V)     &kp LG(X)        &kp LG(LS(Z))  &trans
+&trans  &kp LEFT_GUI  &kp LALT  &kp LSHIFT  &kp LCTRL  &trans    &mmv MOVE_LEFT   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans         &trans
+&trans  &trans        &trans    &trans      &mo 0      &trans    &mmv MOVE_RIGHT  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans         &trans
 &trans  &trans        &trans    &trans      &trans     &trans    &mkp LCLK        &mkp RCLK       &mkp LCLK       &mkp MCLK     &trans           &trans
             >;
 
@@ -233,38 +233,38 @@
 
         Symbol {
             bindings = <
-&trans        &kp EXCLAMATION  &kp AT         &kp HASH          &kp DOLLAR      &kp PERCENT      &trans  &kp CARET     &kp AMPERSAND         &kp ASTERISK      &kp AT             &trans                 &trans
-&trans        &kp GRAVE        &kp SLASH      &kp ASTERISK      &kp CARET       &kp BACKSLASH    &trans  &kp TILDE     &kp LEFT_BRACE        &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp RIGHT_BRACE        &trans
-&trans        &kp EXCLAMATION  &kp DOLLAR     &kp COLON         &kp EQUAL       &kp AMPERSAND    &trans  &kp AT        &kp LEFT_PARENTHESIS  &kp SEMI          &kp QUESTION       &kp RIGHT_PARENTHESIS  &trans
-&kp QUESTION  &kp MINUS        &kp PLUS       &kp HASH          &kp PERCENT     &kp PIPE         &trans  &kp QUESTION  &kp LEFT_BRACKET      &kp COLON         &kp PERIOD         &kp RIGHT_BRACKET      &trans
-&trans        &kp SPACE        &kp LESS_THAN  &kp GREATER_THAN  &kp UNDERSCORE  &kp MINUS        &trans  &trans        &trans                &trans            &trans             &trans
+&kp BACKSLASH  &kp EXCLAMATION       &kp AT             &kp HASH          &kp DOLLAR             &kp PERCENT     &trans  &kp CARET     &kp AMPERSAND         &kp ASTERISK      &kp AT             &kp PIPE               &kp BACKSLASH
+&kp SLASH      &kp LEFT_BRACE        &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp RIGHT_BRACE        &kp TILDE       &trans  &kp TILDE     &kp LEFT_BRACE        &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp RIGHT_BRACE        &kp SLASH
+&kp ASTERISK   &kp LEFT_PARENTHESIS  &kp QUESTION       &kp SEMICOLON     &kp RIGHT_PARENTHESIS  &kp AT          &trans  &kp AT        &kp LEFT_PARENTHESIS  &kp SEMI          &kp QUESTION       &kp RIGHT_PARENTHESIS  &kp ASTERISK
+&kp DOLLAR     &kp LEFT_BRACKET      &kp PERIOD         &kp COLON         &kp RIGHT_BRACKET      &kp QUESTION    &trans  &kp QUESTION  &kp LEFT_BRACKET      &kp COLON         &kp PERIOD         &kp RIGHT_BRACKET      &kp DOLLAR
+&trans         &kp UNDERSCORE        &kp LESS_THAN      &kp GREATER_THAN  &kp UNDERSCORE         &kp MINUS       &trans  &trans        &trans                &kp AMPERSAND     &kp PIPE           &kp UNDERSCORE
             >;
 
             label = "Symbol";
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
         };
 
+        Extra_Symbol {
+            label = "Extra_Symbol";
+            bindings = <
+&kp LG(Z)     &kp LG(C)        &kp LG(V)      &kp LG(X)         &kp LS(LG(Z))   &trans           &trans  &trans     &trans     &trans        &trans          &trans     &trans
+&trans        &kp GRAVE        &kp SLASH      &kp ASTERISK      &kp CARET       &kp BACKSLASH    &trans  &trans     &trans     &trans        &trans          &trans     &trans
+&trans        &kp EXCLAMATION  &kp DOLLAR     &kp COLON         &kp EQUAL       &kp AMPERSAND    &trans  &trans     &kp LEFT   &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans
+&kp QUESTION  &kp MINUS        &kp PLUS       &kp HASH          &kp PERCENT     &kp PIPE         &trans  &trans     &kp LA(C)  &kp LG(C)     &kp LG(V)       &trans     &trans
+&trans        &kp SPACE        &kp LESS_THAN  &kp GREATER_THAN  &kp UNDERSCORE  &kp MINUS        &trans  &kp LA(C)  &kp LA(E)  &kp LA(I)     &kp LG(X)       &kp LG(Z)
+            >;
+        };
+
         Function {
             bindings = <
-&trans  &trans   &trans  &trans     &trans     &trans             &trans  &trans  &trans     &trans      &trans    &trans    &trans
-&trans  &kp F12  &kp F7  &kp F8     &kp F9     &kp PRINTSCREEN    &trans  &trans  &trans     &trans      &trans    &trans    &trans
-&trans  &kp F11  &kp F4  &kp F5     &kp F6     &kp SCROLLLOCK     &trans  &trans  &kp RCTRL  &kp RSHIFT  &kp RALT  &kp RGUI  &trans
-&trans  &kp F10  &kp F1  &kp F2     &kp F3     &kp PAUSE_BREAK    &trans  &trans  &trans     &trans      &trans    &trans    &trans
-&trans  &trans   &trans  &kp K_APP  &kp SPACE  &kp TAB            &trans  &trans  &trans     &trans      &trans    &trans
+&kp LG(Z)  &kp LG(C)  &kp LG(V)  &kp LG(X)  &kp LS(LG(Z))  &trans             &trans  &trans     &trans     &trans      &trans    &trans    &trans
+&trans     &kp F12    &kp F7     &kp F8     &kp F9         &kp PRINTSCREEN    &trans  &trans     &trans     &trans      &trans    &trans    &trans
+&trans     &kp F11    &kp F4     &kp F5     &kp F6         &kp SCROLLLOCK     &trans  &trans     &kp RCTRL  &kp RSHIFT  &kp RALT  &kp RGUI  &trans
+&trans     &kp F10    &kp F1     &kp F2     &kp F3         &kp PAUSE_BREAK    &trans  &trans     &trans     &trans      &trans    &trans    &trans
+&trans     &trans     &trans     &kp K_APP  &kp SPACE      &kp TAB            &trans  &kp LG(C)  &kp LG(V)  &trans      &trans    &trans
             >;
 
             label = "Function";
-        };
-
-        Quick {
-            label = "Quick";
-            bindings = <
-&trans  &trans                &trans            &trans             &trans                 &trans         &trans  &trans     &trans     &trans        &trans          &trans     &trans
-&trans  &kp LEFT_BRACE        &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp RIGHT_BRACE        &kp PERCENT    &trans  &trans     &trans     &trans        &trans          &trans     &trans
-&trans  &kp LEFT_PARENTHESIS  &kp DOLLAR        &kp MINUS          &kp RIGHT_PARENTHESIS  &kp EQUAL      &trans  &trans     &kp LEFT   &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans
-&trans  &kp LEFT_BRACKET      &kp LESS_THAN     &kp GREATER_THAN   &kp RIGHT_BRACKET      &kp COLON      &trans  &trans     &kp LA(C)  &trans        &trans          &trans     &trans
-&trans  &trans                &kp EQUAL         &kp GREATER_THAN   &kp MINUS              &kp DOLLAR     &trans  &kp LA(C)  &kp LA(E)  &kp LA(I)     &trans          &trans
-            >;
         };
     };
 };
