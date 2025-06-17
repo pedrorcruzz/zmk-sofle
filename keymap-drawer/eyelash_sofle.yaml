@@ -231,8 +231,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - EP TOG
   - PREVIOUS
-  - VOLUME DOWN
-  - VOLUME UP
+  - $$mdi:volume-low$$
+  - $$mdi:volume-high$$
   - $$mdi:skip-next$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -476,11 +476,11 @@ layers:
   - F9
   - PRINTSCREEN
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:brightness-7$$
-  - $$mdi:brightness-5$$
-  - $$mdi:volume-low$$
-  - $$mdi:volume-high$$
-  - MUTE
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - F11
