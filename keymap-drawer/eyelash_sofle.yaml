@@ -430,7 +430,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - '?'
+  - {t: $, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '-', s: _}
   - +
   - '#'
