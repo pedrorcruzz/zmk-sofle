@@ -382,8 +382,8 @@ layers:
   - _
   - <
   - '>'
-  - _
   - {t: '-', s: _}
+  - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
@@ -447,8 +447,8 @@ layers:
   - $$mdi:keyboard-space$$
   - <
   - '>'
-  - _
   - {t: '-', s: _}
+  - _
   - {t: '$$mdi:transfer$$', type: trans}
   - Alt+C
   - Alt+E
