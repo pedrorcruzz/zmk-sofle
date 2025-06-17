@@ -602,8 +602,8 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:keyboard-space"/>
-<a href="#Extra_Symbol">
-<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 60%">Extra_Sym…</tspan></text>
+<a href="#Symbol2">
+<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 86%">Symbol2</tspan></text>
 </a></g>
 <g transform="translate(392, 217)" class="key keypos-52">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -2387,8 +2387,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 2329)" class="layer-Extra_Symbol">
-<text x="0" y="28" class="label" id="Extra_Symbol">Extra_Symbol:</text>
+<g transform="translate(40, 2329)" class="layer-Symbol2">
+<text x="0" y="28" class="label" id="Symbol2">Symbol2:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
