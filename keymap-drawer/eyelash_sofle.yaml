@@ -314,11 +314,11 @@ layers:
   - '%'
   - {t: ., s: '>'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '-', s: _}
+  - +
   - {t: ., s: '>'}
   - {t: '0', s: )}
-  - {t: '-', s: _}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
