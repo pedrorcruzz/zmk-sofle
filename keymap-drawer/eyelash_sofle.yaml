@@ -365,7 +365,7 @@ layers:
   - '?'
   - )
   - '*'
-  - $$mdi:apple-keyboard-shift$$
+  - $
   - {t: '[', s: '{'}
   - .
   - ':'
