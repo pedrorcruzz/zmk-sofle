@@ -352,7 +352,7 @@ layers:
   - '"'
   - '}'
   - {t: /, s: '?'}
-  - '*'
+  - {t: '*', h: '$$mdi:apple-keyboard-command$$'}
   - (
   - '?'
   - ':'
@@ -379,7 +379,7 @@ layers:
   - {t: ']', s: '}'}
   - $
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: _, h: '$$mdi:apple-keyboard-command$$'}
+  - _
   - <
   - '>'
   - {t: '-', h: '$$mdi:backspace$$', s: _}
