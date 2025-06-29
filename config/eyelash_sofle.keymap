@@ -247,11 +247,11 @@
         Symbol2 {
             label = "Symbol2";
             bindings = <
-&trans                  &trans           &trans         &trans            &trans          &trans              &trans  &trans  &trans     &trans        &trans          &trans         &trans
-&kp ENTER               &kp GRAVE        &kp SLASH      &kp ASTERISK      &kp CARET       &kp LESS_THAN       &trans  &trans  &kp SLASH  &kp PIPE      &trans          &kp BACKSLASH  &trans
-&hrm CAPS TILDE         &kp EXCLAMATION  &kp DOLLAR     &kp COLON         &kp AMPERSAND   &kp EQUAL           &trans  &trans  &kp LEFT   &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT      &trans
-&hrm LEFT_SHIFT DOLLAR  &kp MINUS        &kp PLUS       &kp HASH          &kp PERCENT     &kp GREATER_THAN    &trans  &trans  &kp LA(C)  &kp LA(E)     &kp LA(I)       &trans         &trans
-&trans                  &kp SPACE        &kp LESS_THAN  &kp GREATER_THAN  &kp UNDERSCORE  &kp PLUS            &trans  &trans  &trans     &trans        &trans          &trans
+&trans                  &trans           &trans         &trans            &trans          &trans                  &trans  &trans  &trans        &trans        &trans          &trans     &trans
+&kp ENTER               &kp GRAVE        &kp SLASH      &kp ASTERISK      &kp CARET       &kp NON_US_BACKSLASH    &trans  &trans  &kp QUESTION  &kp PIPE      &kp ASTERISK    &kp CARET  &trans
+&hrm CAPS TILDE         &kp EXCLAMATION  &kp DOLLAR     &kp COLON         &kp AMPERSAND   &kp EQUAL               &trans  &trans  &kp LEFT      &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans
+&hrm LEFT_SHIFT DOLLAR  &kp LESS_THAN    &kp AT_SIGN    &kp HASH          &kp PERCENT     &kp GREATER_THAN        &trans  &trans  &kp MINUS     &kp PLUS      &kp QUESTION    &kp COMMA  &trans
+&trans                  &kp SPACE        &kp LESS_THAN  &kp GREATER_THAN  &kp UNDERSCORE  &kp PLUS                &trans  &trans  &trans        &trans        &trans          &trans
             >;
         };
 
