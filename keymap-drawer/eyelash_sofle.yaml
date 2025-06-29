@@ -521,5 +521,5 @@ layers:
   - {t: X, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [44, 31, 46, 33]
+- p: [44, 31]
   k: $$mdi:keyboard-esc$$
