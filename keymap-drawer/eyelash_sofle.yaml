@@ -409,13 +409,13 @@ layers:
   - {t: /, s: '?'}
   - '*'
   - ^
-  - <
+  - \
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: /, s: '?'}
+  - '?'
   - '|'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: \, s: '|'}
+  - '*'
+  - ^
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '~', h: '$$mdi:apple-keyboard-caps$$'}
   - '!'
@@ -431,17 +431,17 @@ layers:
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: $, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '-', s: _}
-  - +
+  - <
+  - '@'
   - '#'
   - '%'
   - '>'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Alt+C
-  - Alt+E
-  - Alt+I
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '-', s: _}
+  - +
+  - '?'
+  - {t: ',', s: <}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-space$$
