@@ -58,7 +58,14 @@
         label = "RBG_GLOW";
     };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        Vim-Normal {
+            bindings = <&kp ESC>;
+            key-positions = <44 31 46 33>;
+        };
+    };
 
     behaviors {
         as_ht: autoshift_hold_tap {
