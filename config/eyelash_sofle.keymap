@@ -63,7 +63,7 @@
 
         Vim-Normal {
             bindings = <&kp ESC>;
-            key-positions = <44 31>;
+            key-positions = <43 30>;
         };
     };
 
