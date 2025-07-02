@@ -26,27 +26,6 @@
 #     path: config
 
 
-# GEM 2
-manifest:
-  remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
-    # support nice_oled and nice_epaper
-    - name: mctechnology17
-      url-base: https://github.com/mctechnology17
-  projects:
-    - name: zmk
-      remote: zmkfirmware
-      revision: main
-      import: app/west.yml
-    # support nice_oled and nice_epaper
-    - name: zmk-nice-epaper
-      remote: mctechnology17
-      revision: main
-  self:
-    path: config
-
-
 #MARIO
 # manifest:
 #   remotes:
@@ -68,22 +47,22 @@ manifest:
 
 
 # ONE PUNCH MAN
-# manifest:
-#   remotes:
-#     - name: zmkfirmware
-#       url-base: https://github.com/zmkfirmware
-#     - name: whoop-t #new entry
-#       url-base: https://github.com/whoop-t #new entry
-#   projects:
-#     - name: zmk
-#       remote: zmkfirmware
-#       revision: main
-#       import: app/west.yml
-#     - name: nice-one-punch-ok #new entry
-#       remote: whoop-t #new entry
-#       revision: main #new entry
-#   self:
-#     path: config
+manifest:
+  remotes:
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+    - name: whoop-t #new entry
+      url-base: https://github.com/whoop-t #new entry
+  projects:
+    - name: zmk
+      remote: zmkfirmware
+      revision: main
+      import: app/west.yml
+    - name: nice-one-punch-ok #new entry
+      remote: whoop-t #new entry
+      revision: main #new entry
+  self:
+    path: config
 
 
 # LUFFY GEAR FIVE
