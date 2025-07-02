@@ -437,7 +437,7 @@ layers:
   - '%'
   - '>'
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-command$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '-', s: _}
   - +
   - '?'
@@ -495,7 +495,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - RGUI
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-command$$
   - F10
   - F1
   - F2
@@ -503,8 +503,8 @@ layers:
   - PAUSE BREAK
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '-', s: _}
+  - +
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
