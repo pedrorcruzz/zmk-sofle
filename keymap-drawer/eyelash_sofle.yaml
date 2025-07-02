@@ -308,8 +308,8 @@ layers:
   - '4'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: ',', s: <}
-  - +
   - {t: '-', s: _}
+  - +
   - {t: /, s: '?'}
   - '%'
   - {t: ., s: '>'}
@@ -392,7 +392,7 @@ layers:
   - _
   Symbol2:
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-command$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -437,9 +437,9 @@ layers:
   - '%'
   - '>'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - +
+  - $$mdi:apple-keyboard-command$$
   - {t: '-', s: _}
+  - +
   - '?'
   - {t: ',', s: <}
   - {t: '$$mdi:transfer$$', type: trans}
