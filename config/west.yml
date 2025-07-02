@@ -1,29 +1,29 @@
 # GEM
-# manifest:
-#   remotes:
-#     - name: zmkfirmware
-#       url-base: https://github.com/zmkfirmware
-#       # Additional modules containing boards/shields/custom code can be listed here as well.
-#       # See:
-#       # - https://zmk.dev/docs/features/modules
-#       # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
-#       # - name: gpeye
-#       #   url-base: https://github.com/GPeye
-#     - name: m165437 #new entry
-#       url-base: https://github.com/M165437 #new entry
-#   projects:
-#     - name: eyelash_sofle
-#       url: https://github.com/a741725193/zmk-sofle
-#       revision: refactor
-#     - name: nice-view-gem #new entry
-#       remote: m165437 #new entry
-#       revision: main #new entry
-#     - name: zmk
-#       remote: zmkfirmware
-#       revision: main
-#       import: app/west.yml
-#   self:
-#     path: config
+manifest:
+  remotes:
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+      # Additional modules containing boards/shields/custom code can be listed here as well.
+      # See:
+      # - https://zmk.dev/docs/features/modules
+      # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
+      # - name: gpeye
+      #   url-base: https://github.com/GPeye
+    - name: m165437 #new entry
+      url-base: https://github.com/M165437 #new entry
+  projects:
+    - name: eyelash_sofle
+      url: https://github.com/a741725193/zmk-sofle
+      revision: refactor
+    - name: nice-view-gem #new entry
+      remote: m165437 #new entry
+      revision: main #new entry
+    - name: zmk
+      remote: zmkfirmware
+      revision: main
+      import: app/west.yml
+  self:
+    path: config
 
 
 # GEM 2
@@ -40,7 +40,7 @@
 #       revision: main
 #       import: app/west.yml
 #     # support nice_oled and nice_epaper
-#     - name: zmk-nice-oled
+#     - name: zmk-nice-epaper
 #       remote: mctechnology17
 #       revision: main
 #   self:
@@ -105,19 +105,19 @@
 
 
 # MINIMALISTIC (BATTERY)
-manifest:
-  remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
-    - name: infely                             # new entry
-      url-base: https://github.com/infely      # new entry
-  projects:
-    - name: zmk
-      remote: zmkfirmware
-      revision: main
-      import: app/west.yml
-    - name: nice-view-battery                  # new entry
-      remote: infely                           # new entry
-      revision: main                           # new entry
-  self:
-    path: config
+# manifest:
+#   remotes:
+#     - name: zmkfirmware
+#       url-base: https://github.com/zmkfirmware
+#     - name: infely                             # new entry
+#       url-base: https://github.com/infely      # new entry
+#   projects:
+#     - name: zmk
+#       remote: zmkfirmware
+#       revision: main
+#       import: app/west.yml
+#     - name: nice-view-battery                  # new entry
+#       remote: infely                           # new entry
+#       revision: main                           # new entry
+#   self:
+#     path: config
