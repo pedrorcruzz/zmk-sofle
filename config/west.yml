@@ -1,25 +1,106 @@
+# GEM
+# manifest:
+#   remotes:
+#     - name: zmkfirmware
+#       url-base: https://github.com/zmkfirmware
+#       # Additional modules containing boards/shields/custom code can be listed here as well.
+#       # See:
+#       # - https://zmk.dev/docs/features/modules
+#       # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
+#       # - name: gpeye
+#       #   url-base: https://github.com/GPeye
+#     - name: m165437 #new entry
+#       url-base: https://github.com/M165437 #new entry
+#   projects:
+#     - name: eyelash_sofle
+#       url: https://github.com/a741725193/zmk-sofle
+#       revision: refactor
+#     - name: nice-view-gem #new entry
+#       remote: m165437 #new entry
+#       revision: main #new entry
+#     - name: zmk
+#       remote: zmkfirmware
+#       revision: main
+#       import: app/west.yml
+#   self:
+#     path: config
+
+
+# GEM 2
+# manifest:
+#   remotes:
+#     - name: zmkfirmware
+#       url-base: https://github.com/zmkfirmware
+#     # support nice_oled and nice_epaper
+#     - name: mctechnology17
+#       url-base: https://github.com/mctechnology17
+#   projects:
+#     - name: zmk
+#       remote: zmkfirmware
+#       revision: main
+#       import: app/west.yml
+#     # support nice_oled and nice_epaper
+#     - name: zmk-nice-oled
+#       remote: mctechnology17
+#       revision: main
+#   self:
+#     path: config
+
+
+# ONE PUNCH MAN
+# manifest:
+#   remotes:
+#     - name: zmkfirmware
+#       url-base: https://github.com/zmkfirmware
+#     - name: whoop-t #new entry
+#       url-base: https://github.com/whoop-t #new entry
+#   projects:
+#     - name: zmk
+#       remote: zmkfirmware
+#       revision: main
+#       import: app/west.yml
+#     - name: nice-one-punch-ok #new entry
+#       remote: whoop-t #new entry
+#       revision: main #new entry
+#   self:
+#     path: config
+
+
+# LUFFY GEAR FIVE
 manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-      # Additional modules containing boards/shields/custom code can be listed here as well.
-      # See:
-      # - https://zmk.dev/docs/features/modules
-      # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
-      # - name: gpeye
-      #   url-base: https://github.com/GPeye
-    - name: m165437 #new entry
-      url-base: https://github.com/M165437 #new entry
+    - name: whoop-t #new entry
+      url-base: https://github.com/whoop-t #new entry
   projects:
-    - name: eyelash_sofle
-      url: https://github.com/a741725193/zmk-sofle
-      revision: refactor
-    - name: nice-view-gem #new entry
-      remote: m165437 #new entry
-      revision: main #new entry
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+    - name: nice-luffy-gear-five #new entry
+      remote: whoop-t #new entry
+      revision: main #new entry
   self:
     path: config
+
+
+# LUFFY WANTED
+# manifest:
+#   remotes:
+#     - name: zmkfirmware
+#       url-base: https://github.com/zmkfirmware
+#     - name: whoop-t #new entry
+#       url-base: https://github.com/whoop-t #new entry
+#   projects:
+#     - name: zmk
+#       remote: zmkfirmware
+#       revision: main
+#       import: app/west.yml
+#     - name: nice-luffy-wanted #new entry
+#       remote: whoop-t #new entry
+#       revision: main #new entry
+#   self:
+#     path: config
+
+
