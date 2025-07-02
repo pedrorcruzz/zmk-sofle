@@ -44,18 +44,18 @@
   #   shield: settings_reset
 
 # LUFFY GEAR FIVE
-include:
-  - board: nice_nano_v2
-    shield: corne_left nice_view_adapter nice_luffy_gear_five #update entry
-  - board: nice_nano_v2
-    shield: corne_right nice_view_adapter nice_luffy_gear_five #update entry
-  - board: eyelash_sofle_left
-    shield: nice_view
-    snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_STUDIO_LOCKING=n
-    artifact-name: eyelash_sofle_studio_left
-  - board: eyelash_sofle_left
-    shield: settings_reset
+# include:
+#   - board: nice_nano_v2
+#     shield: corne_left nice_view_adapter nice_luffy_gear_five #update entry
+#   - board: nice_nano_v2
+#     shield: corne_right nice_view_adapter nice_luffy_gear_five #update entry
+#   - board: eyelash_sofle_left
+#     shield: nice_view
+#     snippet: studio-rpc-usb-uart
+#     cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_STUDIO_LOCKING=n
+#     artifact-name: eyelash_sofle_studio_left
+#   - board: eyelash_sofle_left
+#     shield: settings_reset
 
 
 # LUFFY WANTED
@@ -71,3 +71,18 @@ include:
 #     artifact-name: eyelash_sofle_studio_left
 #   - board: eyelash_sofle_left
 #     shield: settings_reset
+
+
+# MINIMALISTIC (BATTERY)
+include:
+  - board: nice_nano_v2
+    shield: corne_left nice_view_adapter nice_view_battery  # updated entry
+  - board: nice_nano_v2
+    shield: corne_right nice_view_adapter nice_view_battery # updated entry
+  - board: eyelash_sofle_left
+    shield: nice_view
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_STUDIO_LOCKING=n
+    artifact-name: eyelash_sofle_studio_left
+  - board: eyelash_sofle_left
+    shield: settings_reset
