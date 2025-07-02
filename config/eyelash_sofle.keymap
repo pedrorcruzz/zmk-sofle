@@ -254,21 +254,21 @@
         Symbol2 {
             label = "Symbol2";
             bindings = <
-&trans                  &trans           &trans         &trans            &trans          &trans              &trans  &trans            &trans        &trans        &trans          &trans     &trans
-&kp ENTER               &kp SLASH        &kp GRAVE      &kp ASTERISK      &kp BACKSLASH   &kp CARET           &trans  &trans            &kp QUESTION  &kp ASTERISK  &kp PIPE        &kp CARET  &trans
-&hrm CAPS TILDE         &kp EXCLAMATION  &kp DOLLAR     &kp COLON         &kp AMPERSAND   &kp EQUAL           &trans  &trans            &kp LEFT      &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans
-&hrm LEFT_SHIFT DOLLAR  &kp LESS_THAN    &kp AT_SIGN    &kp HASH          &kp PERCENT     &kp GREATER_THAN    &trans  &kp LEFT_COMMAND  &kp MINUS     &kp PLUS      &kp QUESTION    &kp COMMA  &trans
-&trans                  &kp SPACE        &kp LESS_THAN  &kp GREATER_THAN  &kp UNDERSCORE  &kp PLUS            &trans  &trans            &trans        &trans        &trans          &trans
+&trans                  &trans           &trans         &trans            &trans          &trans              &trans  &trans  &trans        &trans        &trans          &trans     &trans
+&kp ENTER               &kp SLASH        &kp GRAVE      &kp ASTERISK      &kp BACKSLASH   &kp CARET           &trans  &trans  &kp QUESTION  &kp ASTERISK  &kp PIPE        &kp CARET  &trans
+&hrm CAPS TILDE         &kp EXCLAMATION  &kp DOLLAR     &kp COLON         &kp AMPERSAND   &kp EQUAL           &trans  &trans  &kp LEFT      &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans
+&hrm LEFT_SHIFT DOLLAR  &kp LESS_THAN    &kp AT_SIGN    &kp HASH          &kp PERCENT     &kp GREATER_THAN    &trans  &trans  &kp MINUS     &kp PLUS      &kp QUESTION    &kp COMMA  &trans
+&trans                  &kp SPACE        &kp LESS_THAN  &kp GREATER_THAN  &kp UNDERSCORE  &kp PLUS            &trans  &trans  &trans        &trans        &trans          &trans
             >;
         };
 
         Function {
             bindings = <
-&kp LG(Z)  &kp LG(C)  &kp LG(V)  &kp LG(X)  &kp LS(LG(Z))  &trans             &trans  &trans     &trans     &trans      &trans     &trans    &trans
-&trans     &kp F12    &kp F7     &kp F8     &kp F9         &kp PRINTSCREEN    &trans  &trans     &trans     &trans      &trans     &trans    &trans
-&trans     &kp F11    &kp F4     &kp F5     &kp F6         &kp SCROLLLOCK     &trans  &trans     &kp RCTRL  &kp RSHIFT  &kp RALT   &kp RGUI  &trans
-&trans     &kp F10    &kp F1     &kp F2     &kp F3         &kp PAUSE_BREAK    &trans  &trans     &trans     &trans      &trans     &trans    &trans
-&trans     &trans     &trans     &kp K_APP  &kp SPACE      &kp TAB            &trans  &kp LG(Z)  &kp LG(C)  &kp LG(V)   &kp LG(X)  &trans
+&kp LG(Z)         &kp LG(C)  &kp LG(V)  &kp LG(X)  &kp LS(LG(Z))  &trans             &trans  &trans     &trans     &trans      &trans     &trans    &trans
+&trans            &kp F12    &kp F7     &kp F8     &kp F9         &kp PRINTSCREEN    &trans  &trans     &trans     &trans      &trans     &trans    &trans
+&trans            &kp F11    &kp F4     &kp F5     &kp F6         &kp SCROLLLOCK     &trans  &trans     &kp RCTRL  &kp RSHIFT  &kp RALT   &kp RGUI  &trans
+&kp LEFT_COMMAND  &kp F10    &kp F1     &kp F2     &kp F3         &kp PAUSE_BREAK    &trans  &trans     &kp MINUS  &kp PLUS    &trans     &trans    &trans
+&trans            &trans     &trans     &kp K_APP  &kp SPACE      &kp TAB            &trans  &kp LG(Z)  &kp LG(C)  &kp LG(V)   &kp LG(X)  &trans
             >;
 
             label = "Function";
