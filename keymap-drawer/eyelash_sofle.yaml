@@ -110,9 +110,9 @@ layers:
   - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
   - {t: C, h: '$$mdi:apple-keyboard-command$$'}
   - {t: V, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: '0', s: )}
-  - $$mdi:pan-right$$
   - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:pan-right$$
+  - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
@@ -127,7 +127,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   Mouse:
@@ -292,7 +292,7 @@ layers:
   - '4'
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
-  - {t: '=', s: +}
+  - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-control$$
