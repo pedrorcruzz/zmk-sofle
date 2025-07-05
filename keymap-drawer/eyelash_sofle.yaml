@@ -425,10 +425,10 @@ layers:
   - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-right-bold$$
+  - Alt+C
+  - Alt+E
+  - Alt+I
+  - Alt+N
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: $, h: '$$mdi:apple-keyboard-shift$$'}
   - <
