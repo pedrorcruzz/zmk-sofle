@@ -188,11 +188,11 @@
 
         Navigation {
             bindings = <
-&trans          &trans         &trans        &trans     &trans     &trans    &msc SCRL_UP     &trans         &trans         &trans         &trans          &trans     &trans
-&trans          &kp LA(C)      &kp LA(E)     &kp LA(I)  &kp LA(N)  &trans    &msc SCRL_DOWN   &kp LG(LS(Z))  &kp LG(C)      &kp LG(V)      &kp LG(X)       &kp LG(Z)  &trans
-&trans          &kp LEFT       &kp UP_ARROW  &kp DOWN   &kp RIGHT  &trans    &msc SCRL_LEFT   &kp CAPS       &kp H          &kp J          &kp K           &kp L      &trans
-&kp LEFT_SHIFT  &kp LG(LS(Z))  &kp LG(Z)     &kp LG(C)  &kp LG(V)  &kp N0    &msc SCRL_RIGHT  &kp INSERT     &kp HOME       &kp PAGE_DOWN  &kp PAGE_UP     &kp END    &kp RIGHT_SHIFT
-&kp C_MUTE      &trans         &trans        &trans     &trans     &trans    &mkp LCLK        &kp ENTER      &kp BACKSPACE  &kp DELETE     &kp LEFT_SHIFT  &trans
+&trans          &trans         &trans        &trans     &trans     &trans    &msc SCRL_UP     &trans      &trans         &trans         &trans          &trans   &trans
+&trans          &trans         &trans        &trans     &trans     &trans    &msc SCRL_DOWN   &trans      &trans         &trans         &trans          &trans   &trans
+&trans          &kp LEFT       &kp UP_ARROW  &kp DOWN   &kp RIGHT  &trans    &msc SCRL_LEFT   &kp CAPS    &kp H          &kp J          &kp K           &kp L    &trans
+&kp LEFT_SHIFT  &kp LG(LS(Z))  &kp LG(Z)     &kp LG(C)  &kp LG(V)  &kp N0    &msc SCRL_RIGHT  &kp INSERT  &kp HOME       &kp PAGE_DOWN  &kp PAGE_UP     &kp END  &kp RIGHT_SHIFT
+&kp C_MUTE      &trans         &trans        &trans     &trans     &trans    &mkp LCLK        &kp ENTER   &kp BACKSPACE  &kp DELETE     &kp LEFT_SHIFT  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_DEC C_BRIGHTNESS_INC>;
@@ -244,7 +244,7 @@
 &hrm SLASH UNDER        &kp LEFT_BRACE        &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp RIGHT_BRACE        &kp DOLLAR          &trans  &kp TILDE     &kp LEFT_BRACE        &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp RIGHT_BRACE        &kp SLASH
 &hrm LEFT_GUI ASTERISK  &kp LEFT_PARENTHESIS  &kp QUESTION       &kp COLON         &kp RIGHT_PARENTHESIS  &kp AT              &trans  &kp AT        &kp LEFT_PARENTHESIS  &kp SEMI          &kp QUESTION       &kp RIGHT_PARENTHESIS  &kp ASTERISK
 &hrm LEFT_SHIFT DOLLAR  &kp LEFT_BRACKET      &kp PERIOD         &kp SEMICOLON     &kp RIGHT_BRACKET      &kp GREATER_THAN    &trans  &kp QUESTION  &kp LEFT_BRACKET      &kp SEMICOLON     &kp PERIOD         &kp RIGHT_BRACKET      &kp DOLLAR
-&trans                  &kp UNDERSCORE        &kp LESS_THAN      &kp GREATER_THAN  &hrm BACKSPACE MINUS   &kp EQUAL           &trans  &trans        &trans                &kp AMPERSAND     &kp PIPE           &kp UNDERSCORE
+&trans                  &kp UNDERSCORE        &kp PLUS           &kp LESS_THAN     &hrm BACKSPACE MINUS   &kp EQUAL           &trans  &trans        &trans                &kp AMPERSAND     &kp PIPE           &kp UNDERSCORE
             >;
 
             label = "Symbol";
@@ -264,11 +264,11 @@
 
         Function {
             bindings = <
-&kp LG(Z)         &kp LG(C)  &kp LG(V)  &kp LG(X)  &kp LS(LG(Z))  &trans             &trans  &trans     &trans     &trans      &trans     &trans    &trans
-&trans            &kp F12    &kp F7     &kp F8     &kp F9         &kp PRINTSCREEN    &trans  &trans     &trans     &trans      &trans     &trans    &trans
-&trans            &kp F11    &kp F4     &kp F5     &kp F6         &kp SCROLLLOCK     &trans  &trans     &kp RCTRL  &kp RSHIFT  &kp RALT   &kp RGUI  &trans
-&kp LEFT_COMMAND  &kp F10    &kp F1     &kp F2     &kp F3         &kp PAUSE_BREAK    &trans  &trans     &kp MINUS  &kp PLUS    &trans     &trans    &trans
-&trans            &trans     &trans     &kp K_APP  &kp SPACE      &kp TAB            &trans  &kp LG(Z)  &kp LG(C)  &kp LG(V)   &kp LG(X)  &trans
+&trans            &trans   &trans  &trans     &trans     &trans             &trans  &trans     &trans     &trans      &trans     &trans    &trans
+&trans            &kp F12  &kp F7  &kp F8     &kp F9     &kp PRINTSCREEN    &trans  &trans     &trans     &trans      &trans     &trans    &trans
+&trans            &kp F11  &kp F4  &kp F5     &kp F6     &kp SCROLLLOCK     &trans  &trans     &kp RCTRL  &kp RSHIFT  &kp RALT   &kp RGUI  &trans
+&kp LEFT_COMMAND  &kp F10  &kp F1  &kp F2     &kp F3     &kp PAUSE_BREAK    &trans  &trans     &trans     &trans      &kp MINUS  &kp PLUS  &trans
+&trans            &trans   &trans  &kp K_APP  &kp SPACE  &kp TAB            &trans  &kp LG(Z)  &kp LG(C)  &kp LG(V)   &kp LG(X)  &trans
             >;
 
             label = "Function";
