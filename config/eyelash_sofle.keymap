@@ -242,8 +242,8 @@
             bindings = <
 &kp BACKSLASH           &kp EXCLAMATION       &kp AT             &kp HASH          &kp DOLLAR             &kp PERCENT         &trans  &kp CARET     &kp AMPERSAND         &kp ASTERISK      &kp AT             &kp PIPE               &kp BACKSLASH
 &hrm SLASH UNDER        &kp LEFT_BRACE        &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp RIGHT_BRACE        &kp DOLLAR          &trans  &kp TILDE     &kp LEFT_BRACE        &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp RIGHT_BRACE        &kp SLASH
-&hrm LEFT_GUI ASTERISK  &kp LEFT_PARENTHESIS  &kp QUESTION       &kp COLON         &kp RIGHT_PARENTHESIS  &kp AT              &trans  &kp AT        &kp LEFT_PARENTHESIS  &kp SEMI          &kp QUESTION       &kp RIGHT_PARENTHESIS  &kp ASTERISK
-&hrm LEFT_SHIFT DOLLAR  &kp LEFT_BRACKET      &kp PERIOD         &kp COMMA         &kp RIGHT_BRACKET      &kp GREATER_THAN    &trans  &kp QUESTION  &kp LEFT_BRACKET      &kp SEMICOLON     &kp PERIOD         &kp RIGHT_BRACKET      &kp DOLLAR
+&hrm LEFT_GUI ASTERISK  &kp LEFT_PARENTHESIS  &kp QUESTION       &kp COLON         &kp RIGHT_PARENTHESIS  &kp AT              &trans  &kp AT        &kp LEFT_PARENTHESIS  &kp SEMICOLON     &kp QUESTION       &kp RIGHT_PARENTHESIS  &kp ASTERISK
+&hrm LEFT_SHIFT DOLLAR  &kp LEFT_BRACKET      &kp SLASH          &kp PERIOD        &kp RIGHT_BRACKET      &kp GREATER_THAN    &trans  &kp QUESTION  &kp LEFT_BRACKET      &kp COMMA         &kp SEMICOLON      &kp RIGHT_BRACKET      &kp DOLLAR
 &trans                  &kp UNDERSCORE        &kp PLUS           &kp LESS_THAN     &hrm BACKSPACE MINUS   &kp EQUAL           &trans  &trans        &trans                &kp AMPERSAND     &kp PIPE           &kp UNDERSCORE
             >;
 
