@@ -175,11 +175,11 @@
 
         Base {
             bindings = <
-&kp ESC        &kp N1       &kp N2        &kp N3         &kp N4        &kp N5       &kp UP_ARROW     &kp N6       &kp N7           &kp N8         &kp N9           &kp N0         &kp BACKSPACE
-&kp TAB        &kp Q        &kp W         &kp F          &kp P         &kp B        &kp DOWN_ARROW   &kp J        &kp L            &kp U          &kp Y            &hrm Q SEMI    &kp BSLH
-&hrm CAPS ESC  &hrm LGUI A  &hrm LALT R   &hrm LSHIFT S  &hrm LCTRL T  &kp G        &kp LEFT_ARROW   &kp M        &hrm RCTRL N     &hrm RSHIFT E  &hrm RALT I      &hrm RGUI O    &kp APOS
-&kp LSHFT      &kp Z        &kp X         &kp C          &kp D         &kp V        &kp RIGHT_ARROW  &kp K        &kp H            &kp COMMA      &kp DOT          &kp FSLH       &lt 7 ESC
-&kp C_MUTE     &kp LCTRL    &kp LEFT_GUI  &lt 3 ESC      &lt 1 SPACE   &lt 2 TAB    &kp ENTER        &lt 4 ENTER  &lt 5 BACKSPACE  &lt 6 DELETE   &kp RIGHT_SHIFT  &kp RIGHT_GUI
+&kp ESC       &kp N1       &kp N2        &kp N3         &kp N4        &kp N5       &kp UP_ARROW     &kp N6       &kp N7           &kp N8         &kp N9           &kp N0         &kp BACKSPACE
+&kp TAB       &kp Q        &kp W         &kp F          &kp P         &kp B        &kp DOWN_ARROW   &kp J        &kp L            &kp U          &kp Y            &hrm Q SEMI    &kp BSLH
+&mt CAPS ESC  &hrm LGUI A  &hrm LALT R   &hrm LSHIFT S  &hrm LCTRL T  &kp G        &kp LEFT_ARROW   &kp M        &hrm RCTRL N     &hrm RSHIFT E  &hrm RALT I      &hrm RGUI O    &kp APOS
+&kp LSHFT     &kp Z        &kp X         &kp C          &kp D         &kp V        &kp RIGHT_ARROW  &kp K        &kp H            &kp COMMA      &kp DOT          &kp FSLH       &lt 7 ESC
+&kp C_MUTE    &kp LCTRL    &kp LEFT_GUI  &lt 3 ESC      &lt 1 SPACE   &lt 2 TAB    &kp ENTER        &lt 4 ENTER  &lt 5 BACKSPACE  &lt 6 DELETE   &kp RIGHT_SHIFT  &kp RIGHT_GUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -256,7 +256,7 @@
             bindings = <
 &trans                  &trans           &trans         &trans            &trans          &trans              &trans  &trans  &trans        &trans        &trans        &trans     &trans
 &kp ENTER               &kp SLASH        &kp GRAVE      &kp ASTERISK      &kp BACKSLASH   &kp CARET           &trans  &trans  &kp QUESTION  &kp ASTERISK  &kp PIPE      &kp CARET  &trans
-&hrm CAPS TILDE         &kp EXCLAMATION  &kp DOLLAR     &kp COLON         &kp AMPERSAND   &kp EQUAL           &trans  &trans  &kp LA(C)     &kp LA(E)     &kp LA(I)     &kp LA(N)  &trans
+&mt CAPS TILDE          &kp EXCLAMATION  &kp DOLLAR     &kp COLON         &kp AMPERSAND   &kp EQUAL           &trans  &trans  &kp LA(C)     &kp LA(E)     &kp LA(I)     &kp LA(N)  &trans
 &hrm LEFT_SHIFT DOLLAR  &kp LESS_THAN    &kp AT_SIGN    &kp HASH          &kp PERCENT     &kp GREATER_THAN    &trans  &trans  &kp MINUS     &kp PLUS      &kp QUESTION  &kp COMMA  &trans
 &trans                  &kp SPACE        &kp LESS_THAN  &kp GREATER_THAN  &kp UNDERSCORE  &kp PLUS            &trans  &trans  &trans        &trans        &trans        &trans
             >;
