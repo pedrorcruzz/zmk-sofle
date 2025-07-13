@@ -367,15 +367,15 @@ layers:
   - '*'
   - {t: $, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '[', s: '{'}
-  - {t: /, s: '?'}
-  - .
+  - {t: ',', s: <}
+  - {t: ;, s: ':'}
   - {t: ']', s: '}'}
   - '>'
   - {t: '$$mdi:transfer$$', type: trans}
   - '?'
   - {t: '[', s: '{'}
-  - {t: ',', s: <}
-  - {t: ;, s: ':'}
+  - .
+  - {t: /, s: '?'}
   - {t: ']', s: '}'}
   - $
   - {t: '$$mdi:transfer$$', type: trans}
