@@ -294,7 +294,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '0', s: )}
+  - {t: '$$mdi:transfer$$', type: trans}
   - '4'
   - {t: '5', s: '%'}
   - '6'
