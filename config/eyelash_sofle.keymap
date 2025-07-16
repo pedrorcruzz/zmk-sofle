@@ -240,11 +240,11 @@
 
         Symbol {
             bindings = <
-&kp BACKSLASH           &kp EXCLAMATION       &kp AT             &kp HASH          &kp DOLLAR             &kp PERCENT         &trans  &kp CARET     &kp AMPERSAND         &kp ASTERISK      &kp AT             &kp PIPE               &kp BACKSLASH
-&hrm SLASH UNDER        &kp LEFT_BRACE        &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp RIGHT_BRACE        &kp DOLLAR          &trans  &kp TILDE     &kp LEFT_BRACE        &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp RIGHT_BRACE        &kp SLASH
-&hrm LEFT_GUI ASTERISK  &kp LEFT_PARENTHESIS  &kp QUESTION       &kp COLON         &kp RIGHT_PARENTHESIS  &kp AT              &trans  &kp AT        &kp LEFT_PARENTHESIS  &kp SEMICOLON     &kp QUESTION       &kp RIGHT_PARENTHESIS  &kp ASTERISK
-&mt LEFT_SHIFT DOLLAR   &kp LEFT_BRACKET      &kp COMMA          &kp SEMICOLON     &kp RIGHT_BRACKET      &kp GREATER_THAN    &trans  &kp QUESTION  &kp LEFT_BRACKET      &kp PERIOD        &kp SLASH          &kp RIGHT_BRACKET      &kp DOLLAR
-&trans                  &kp UNDERSCORE        &kp PLUS           &kp LESS_THAN     &hrm BACKSPACE MINUS   &kp EQUAL           &trans  &trans        &trans                &kp AMPERSAND     &kp PIPE           &kp UNDERSCORE
+&kp BACKSLASH               &kp EXCLAMATION       &kp AT             &kp HASH          &kp DOLLAR             &kp PERCENT         &trans  &kp CARET     &kp AMPERSAND         &kp ASTERISK      &kp AT             &kp PIPE               &kp BACKSLASH
+&hrm SLASH UNDER            &kp LEFT_BRACE        &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp RIGHT_BRACE        &kp DOLLAR          &trans  &kp TILDE     &kp LEFT_BRACE        &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp RIGHT_BRACE        &kp SLASH
+&hrm LEFT_GUI ASTERISK      &kp LEFT_PARENTHESIS  &kp QUESTION       &kp COLON         &kp RIGHT_PARENTHESIS  &kp AT              &trans  &kp AT        &kp LEFT_PARENTHESIS  &kp SEMICOLON     &kp QUESTION       &kp RIGHT_PARENTHESIS  &kp ASTERISK
+&mt LEFT_SHIFT EXCLAMATION  &kp LEFT_BRACKET      &kp COMMA          &kp SEMICOLON     &kp RIGHT_BRACKET      &kp GREATER_THAN    &trans  &kp QUESTION  &kp LEFT_BRACKET      &kp PERIOD        &kp SLASH          &kp RIGHT_BRACKET      &kp DOLLAR
+&trans                      &kp UNDERSCORE        &kp PLUS           &kp LESS_THAN     &hrm BACKSPACE MINUS   &kp EQUAL           &trans  &trans        &trans                &kp AMPERSAND     &kp PIPE           &kp UNDERSCORE
             >;
 
             label = "Symbol";
@@ -254,11 +254,11 @@
         Symbol2 {
             label = "Symbol2";
             bindings = <
-&trans                 &trans           &trans         &trans            &trans          &trans              &trans  &trans  &trans        &trans        &trans        &trans     &trans
-&kp ENTER              &kp SLASH        &kp GRAVE      &kp ASTERISK      &kp BACKSLASH   &kp CARET           &trans  &trans  &kp QUESTION  &kp ASTERISK  &kp PIPE      &kp CARET  &trans
-&mt CAPS TILDE         &kp EXCLAMATION  &kp DOLLAR     &kp COLON         &kp AMPERSAND   &kp EQUAL           &trans  &trans  &kp LA(C)     &kp LA(E)     &kp LA(I)     &kp LA(N)  &trans
-&mt LEFT_SHIFT DOLLAR  &kp LESS_THAN    &kp AT_SIGN    &kp HASH          &kp PERCENT     &kp GREATER_THAN    &trans  &trans  &kp MINUS     &kp PLUS      &kp QUESTION  &kp COMMA  &trans
-&trans                 &kp SPACE        &kp LESS_THAN  &kp GREATER_THAN  &kp UNDERSCORE  &kp PLUS            &trans  &trans  &trans        &trans        &trans        &trans
+&trans          &trans           &trans         &trans            &trans          &trans              &trans  &trans  &trans        &trans        &trans        &trans     &trans
+&kp ENTER       &kp SLASH        &kp GRAVE      &kp ASTERISK      &kp BACKSLASH   &kp CARET           &trans  &trans  &kp QUESTION  &kp ASTERISK  &kp PIPE      &kp CARET  &trans
+&mt CAPS TILDE  &kp EXCLAMATION  &kp DOLLAR     &kp COLON         &kp AMPERSAND   &kp EQUAL           &trans  &trans  &kp LA(C)     &kp LA(E)     &kp LA(I)     &kp LA(N)  &trans
+&kp LEFT_SHIFT  &kp LESS_THAN    &kp AT_SIGN    &kp HASH          &kp PERCENT     &kp GREATER_THAN    &trans  &trans  &kp MINUS     &kp PLUS      &kp QUESTION  &kp COMMA  &trans
+&trans          &kp SPACE        &kp LESS_THAN  &kp GREATER_THAN  &kp UNDERSCORE  &kp PLUS            &trans  &trans  &trans        &trans        &trans        &trans
             >;
         };
 
