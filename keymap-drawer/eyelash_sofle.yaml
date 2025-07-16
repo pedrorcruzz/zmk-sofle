@@ -365,7 +365,7 @@ layers:
   - '?'
   - )
   - '*'
-  - {t: $, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '!', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '[', s: '{'}
   - {t: ',', s: <}
   - {t: ;, s: ':'}
@@ -430,7 +430,7 @@ layers:
   - Alt+I
   - Alt+N
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: $, h: '$$mdi:apple-keyboard-shift$$'}
+  - $$mdi:apple-keyboard-shift$$
   - <
   - '@'
   - '#'
