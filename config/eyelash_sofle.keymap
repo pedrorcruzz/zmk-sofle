@@ -188,11 +188,11 @@
 
         Navigation {
             bindings = <
-&trans          &trans         &trans          &trans        &trans     &trans    &msc SCRL_UP     &trans      &trans            &trans          &trans        &trans        &trans
-&trans          &trans         &trans          &trans        &trans     &trans    &msc SCRL_DOWN   &kp INS     &kp HOME          &kp PAGE_DOWN   &kp PAGE_UP   &kp END       &trans
-&trans          &kp LEFT       &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &trans    &msc SCRL_LEFT   &kp CAPS    &kp H             &kp J           &kp K         &kp L         &trans
-&kp LEFT_SHIFT  &kp LG(LS(Z))  &kp LG(Z)       &kp LG(C)     &kp LG(V)  &trans    &msc SCRL_RIGHT  &kp DELETE  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_GUI  &kp RIGHT_SHIFT
-&kp C_MUTE      &trans         &trans          &trans        &trans     &trans    &mkp LCLK        &kp ENTER   &kp BACKSPACE     &trans          &trans        &trans
+&trans          &trans         &trans          &trans         &trans        &trans    &msc SCRL_UP     &trans      &trans            &trans          &trans        &trans        &trans
+&trans          &trans         &trans          &kp LG(MINUS)  &kp LG(PLUS)  &trans    &msc SCRL_DOWN   &kp INS     &kp HOME          &kp PAGE_DOWN   &kp PAGE_UP   &kp END       &trans
+&trans          &kp LEFT       &kp DOWN_ARROW  &kp UP_ARROW   &kp RIGHT     &trans    &msc SCRL_LEFT   &kp CAPS    &kp H             &kp J           &kp K         &kp L         &trans
+&kp LEFT_SHIFT  &kp LG(LS(Z))  &kp LG(Z)       &kp LG(C)      &kp LG(V)     &trans    &msc SCRL_RIGHT  &kp DELETE  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_GUI  &kp RIGHT_SHIFT
+&kp C_MUTE      &trans         &trans          &trans         &trans        &trans    &mkp LCLK        &kp ENTER   &kp BACKSPACE     &trans          &trans        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_DEC C_BRIGHTNESS_INC>;
@@ -201,11 +201,11 @@
 
         Mouse {
             bindings = <
-&trans  &trans        &trans     &trans      &trans     &trans           &mmv MOVE_UP     &trans     &trans          &trans          &trans        &trans           &trans
-&trans  &kp LG(Z)     &kp LG(C)  &kp LG(V)   &kp LG(X)  &kp LS(LG(Z))    &mmv MOVE_DOWN   &kp LG(Z)  &kp LG(C)       &kp LG(V)       &kp LG(X)     &kp LG(LS(Z))    &trans
-&trans  &kp LEFT_GUI  &kp LALT   &kp LSHIFT  &kp LCTRL  &trans           &mmv MOVE_LEFT   &mkp LCLK  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans
-&trans  &trans        &trans     &trans      &mo 0      &trans           &mmv MOVE_RIGHT  &mkp RCLK  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans
-&trans  &trans        &trans     &trans      &trans     &trans           &mkp LCLK        &mkp RCLK  &mkp LCLK       &mkp MCLK       &trans        &trans
+&trans  &trans        &trans    &trans      &trans     &trans    &mmv MOVE_UP     &trans     &trans          &trans          &trans        &trans           &trans
+&trans  &trans        &trans    &trans      &trans     &trans    &mmv MOVE_DOWN   &trans     &trans          &trans          &trans        &trans           &trans
+&trans  &kp LEFT_GUI  &kp LALT  &kp LSHIFT  &kp LCTRL  &trans    &mmv MOVE_LEFT   &mkp LCLK  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans
+&trans  &trans        &trans    &trans      &mo 0      &trans    &mmv MOVE_RIGHT  &mkp RCLK  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans
+&trans  &trans        &trans    &trans      &trans     &trans    &mkp LCLK        &mkp RCLK  &mkp LCLK       &mkp MCLK       &trans        &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
