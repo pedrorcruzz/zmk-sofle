@@ -295,10 +295,10 @@ layers:
   - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-option$$
+  - H
   - J
   - K
-  - $$mdi:apple-keyboard-command$$
+  - L
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '0', s: )}
