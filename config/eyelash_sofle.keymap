@@ -255,7 +255,7 @@
             label = "Symbol2";
             bindings = <
 &trans          &trans           &trans         &trans            &trans          &trans              &trans  &trans         &trans        &trans        &trans        &trans     &trans
-&kp ENTER       &kp BACKSLASH    &kp GRAVE      &kp ASTERISK      &kp SLASH       &kp CARET           &trans  &trans         &kp QUESTION  &kp ASTERISK  &kp PIPE      &kp CARET  &trans
+&kp ENTER       &kp BACKSLASH    &kp GRAVE      &kp ASTERISK      &kp SLASH       &kp CARET           &trans  &kp AT_SIGN    &kp QUESTION  &kp ASTERISK  &kp PIPE      &kp CARET  &trans
 &mt CAPS TILDE  &kp EXCLAMATION  &kp DOLLAR     &kp COLON         &kp AMPERSAND   &kp EQUAL           &trans  &kp SLASH      &kp LA(C)     &kp LA(E)     &kp LA(I)     &kp LA(N)  &trans
 &kp LEFT_SHIFT  &kp LESS_THAN    &kp AT_SIGN    &kp HASH          &kp PERCENT     &kp GREATER_THAN    &trans  &kp BACKSLASH  &kp MINUS     &kp PLUS      &kp QUESTION  &kp COMMA  &trans
 &trans          &kp SPACE        &kp LESS_THAN  &kp GREATER_THAN  &kp UNDERSCORE  &kp PLUS            &trans  &trans         &trans        &trans        &trans        &trans
