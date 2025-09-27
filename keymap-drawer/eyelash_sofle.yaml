@@ -82,8 +82,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Gui+-, s: Gui+_}
+  - Gui++
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:pan-down$$
   - INS
@@ -145,17 +145,17 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: C, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: V, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: X, h: '$$mdi:apple-keyboard-command$$'}
-  - Sft+Gui+Z
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: C, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: V, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: X, h: '$$mdi:apple-keyboard-command$$'}
-  - Gui+Sft+Z
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-command$$
