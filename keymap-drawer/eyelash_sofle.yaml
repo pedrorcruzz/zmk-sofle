@@ -427,8 +427,8 @@ layers:
   - {t: /, s: '?'}
   - Alt+C
   - Alt+E
-  - Alt+I
   - Alt+N
+  - Alt+I
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-shift$$
   - <
