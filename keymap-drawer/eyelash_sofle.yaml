@@ -84,10 +84,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: Gui+-, s: Gui+_}
   - Gui++
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-option$$
   - $$mdi:pan-down$$
-  - INS
-  - HOME
+  - {t: ;, s: ':'}
+  - T
   - PgDn
   - PgUp
   - END
@@ -97,22 +97,22 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Alt+J
   - $$mdi:pan-left$$
-  - $$mdi:apple-keyboard-caps$$
+  - {t: ',', s: <}
   - H
   - J
   - K
   - L
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-shift$$
   - Gui+Sft+Z
   - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
   - {t: C, h: '$$mdi:apple-keyboard-command$$'}
   - {t: V, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Alt+K
   - $$mdi:pan-right$$
-  - $$mdi:backspace-reverse-outline$$
+  - .
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
