@@ -86,8 +86,8 @@ layers:
   - Gui++
   - $$mdi:apple-keyboard-option$$
   - $$mdi:pan-down$$
-  - {t: ;, s: ':'}
-  - T
+  - {t: Alt+;, s: 'Alt+:'}
+  - Alt+T
   - PgDn
   - PgUp
   - END
@@ -99,7 +99,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - Alt+J
   - $$mdi:pan-left$$
-  - {t: ',', s: <}
+  - {t: 'Alt+,', s: Alt+<}
   - H
   - J
   - K
@@ -112,7 +112,7 @@ layers:
   - {t: V, h: '$$mdi:apple-keyboard-command$$'}
   - Alt+K
   - $$mdi:pan-right$$
-  - .
+  - Alt+.
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
