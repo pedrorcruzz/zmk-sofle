@@ -83,11 +83,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: Gui+-, s: Gui+_}
   - Gui++
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-option$$
+  - Sft+$$mdi:arrow-down-bold$$
+  - Alt+$$mdi:arrow-down-bold$$
   - $$mdi:pan-down$$
-  - {t: Alt+;, s: 'Alt+:'}
-  - Alt+T
+  - Alt+$$mdi:arrow-up-bold$$
+  - Sft+$$mdi:arrow-up-bold$$
   - PgDn
   - PgUp
   - END
@@ -97,9 +97,9 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - Alt+J
+  - Alt+$$mdi:arrow-left-bold$$
   - $$mdi:pan-left$$
-  - {t: 'Alt+,', s: Alt+<}
+  - Alt+$$mdi:arrow-right-bold$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
@@ -110,9 +110,9 @@ layers:
   - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
   - {t: C, h: '$$mdi:apple-keyboard-command$$'}
   - {t: V, h: '$$mdi:apple-keyboard-command$$'}
-  - Alt+K
+  - Sft+$$mdi:arrow-left-bold$$
   - $$mdi:pan-right$$
-  - Alt+.
+  - Sft+$$mdi:arrow-left-bold$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
