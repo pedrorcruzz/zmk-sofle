@@ -1,0 +1,19 @@
+file_format: "1"
+id: eyelash_sofle
+name: Eyelash Sofle
+url: https://github.com/mateusfdl/zmk-sofle-v2
+type: board
+arch: arm
+features:
+  - keys
+  - display
+  - encoder
+  - underglow
+  - backlight
+  - studio
+outputs:
+  - usb
+  - ble
+siblings:
+  - eyelash_sofle_left//zmk
+  - eyelash_sofle_right//zmk
