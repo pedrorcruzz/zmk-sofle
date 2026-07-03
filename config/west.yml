@@ -13,10 +13,10 @@ manifest:
   projects:
     - name: nice-view-gem #new entry
       remote: m165437 #new entry
-      revision: v0.3.0 #new entry # pinned to v0.3.0 for LVGL v8 compatibility
+      revision: main #new entry # main branch targets ZMK main / Zephyr 4.1 / LVGL v9
     - name: zmk
       remote: zmkfirmware
-      revision: v0.3
+      revision: main
       import: app/west.yml
   self:
     path: config
